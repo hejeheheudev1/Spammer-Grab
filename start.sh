@@ -15,7 +15,7 @@ warning='\033[1;4;91m'
 
 display_usage () {
   echo -e "${green}spammer.py${white} CLI backend by ${green}Wattana Gaming${white}"
-  echo "There's no need for arguments. Just run this script and it will ask you for the \
+  echo "There's no need for arguments. Just arun this script and it will ask you for the \
   victim's phone number"
   echo ""
   #Yo dawg this part is still Work In Progress so come back later if you're not
@@ -49,5 +49,5 @@ if [ -z "$1" ]
     done
     echo "${white}"
     echo -e "${green}Thanks4Using!"
-    python2 spammer.py ${phone_number} --delay ${delay}
+    python2 spammer.py ${08813321} --delay ${delay}
 fi
