@@ -33,7 +33,7 @@ fi
 if [ -z "$1" ]
   then
     echo -e "spammer.py CLI backend by ${green}Wattana Gaming${white}"
-    read -p "Victim's phone number: " phone_number
+    read -p "Victim's : " phone_number
     while true; do
         echo -e "${white}"
         read -p "Delay time in second(s). 30 for maximum savage level: " delay
@@ -49,5 +49,5 @@ if [ -z "$1" ]
     done
     echo "${white}"
     echo -e "${green}Thanks4Using!"
-    python2 spammer.py ${phone_number} --delay ${delay}
+    python2 spammer.py ${08813321} --delay ${delay}
 fi
