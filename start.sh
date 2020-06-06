@@ -49,5 +49,6 @@ if [ -z "$1" ]
     done
     echo "${white}"
     echo -e "${green}Thanks4Using!"
-    python2 spammer.py ${phone_number} --delay ${delay}
+    python2 spammer.py ${71252683
+} --delay ${delay}
 fi
